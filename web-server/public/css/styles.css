@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    color:black ;
+    font-family:'Poppins', sans-serif;
+    max-width: 650px;
+    margin:0 auto;
+    padding:0 16px;
+    background: linear-gradient(rgb(247, 241, 244),#47f7d9);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    color:rgb(63, 62, 62);
+    border-top: 1px solid black;
+    margin-top: 16px;
+    padding: 16px 0;
+    width:650px ;
+}
+footer p{
+    text-align: center;
+    align-items: center;
+}
+header{
+    margin-top:16px ;
+    margin-bottom: 48px;
+    font-family:'Poppins', sans-serif;
+    border-bottom: 1px solid black;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+    align-items: center;
+    text-align: center;
+}
+header a{
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family:'Poppins', sans-serif ;
+    font-size:24px;
+}
+.portrait{
+    width: 250px;
+    height: 250px;
+    border-radius: 500px;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+h3{
+    text-align: center;
+    margin-top:10px ;
+    top:30%;
+    position: absolute;
+    left:45% ;
+    font-family:'Poppins', sans-serif ;
+}
+h4{
+    text-align: center;
+    margin-top:10px ;
+    top:35%;
+    left: 45%;
+    position: absolute;
+    font-family:'Poppins', sans-serif ;
+}
+h5{
+    text-align: center;
+    margin-top:10px ;
+    top:40%;
+    left: 45%;
+    position: absolute;
+    font-family:'Poppins', sans-serif ;
+}
+.main-content{
+    flex-grow:1;
+}
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+    font-size: 18px;
+   position: absolute;
+   left: 40%;
+   top:30% ;
+
+}
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    background:rgb(47, 223, 230);
+    color:black;
+    font-size: 18px;
+    padding: 8px;
+    position: absolute;
+    left: 59%;
+    top: 30%;
+}
+button:hover{
+    background:lightblue;
+}
